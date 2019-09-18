@@ -1,0 +1,34 @@
+body {
+  background-color: #ebbc13;
+  color: Blue;
+  font-size: 175%;
+}
+/* Style for the top of the site */
+p {
+  color: pink;
+  font-size: 300%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+p.important{
+  text-align: center;
+  font-size:300%;
+  color: Red;
+  text-decoration: underline;
+}
+/* End style for top of site */
+
+/* Start style for spacing */
+p.spacing{
+  font-size: 150%;
+  color: red;
+  background-color: white;
+  margin-left: 10%;
+}
+/* End style for spacing */
+
+/* Style hyperlinks */
+a {
+  text-decoration: none;
+  color: white;
+}
