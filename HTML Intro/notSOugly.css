@@ -3,6 +3,18 @@ body {
   color: Blue;
   font-size: 175%;
 }
+/* Begin nav style */
+ul.nav{
+  list-style-type: none;
+  margin:0;
+  padding:0;
+}
+
+li.links{
+  display: inline;
+  padding: 3%;
+}
+/* End nav style */
 /* Style for the top of the site */
 p {
   color: pink;
