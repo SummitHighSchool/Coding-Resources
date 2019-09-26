@@ -9,7 +9,9 @@ ul.nav{
 /* End Style for every page */
 
 /* Begin style for home page */
-
+p.home{
+  color: purple;
+}
 /* End style for home page */
 
 /* Begin style for contact page */
