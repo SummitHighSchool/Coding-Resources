@@ -1,0 +1,25 @@
+/* Start style for all pages */
+body{
+  background-color: red;
+}
+/* End style for all pages */
+
+/* Start home page styling */
+p.hometitle{
+  font-size: 200%;
+}
+/* End home page styling */
+
+/* Start Our Story styling */
+p.storytitle{
+  font-size: 150%;
+}
+/* End Our Story styling */
+
+/* Start Sponsors styling */
+
+/* End Sponsors styling */
+
+/* Start contact us styling */
+
+/* End contact us styling */
