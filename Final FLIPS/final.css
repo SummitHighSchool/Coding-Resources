@@ -1,0 +1,879 @@
+/* Start All Pages */
+
+body{
+
+}
+
+/* End All Pages, start NavBar */
+/* This is the Big Title Above the NavBar at the very top of the Page */
+h1.navtitle{
+  background-size: cover;
+  color: #2a1d30;
+  font-size: 450%;
+  font-family: "Bitter", serif;
+  background-color: #fce112;
+  background-image: url("https://www.telegraph.co.uk/content/dam/Travel/Destinations/Europe/France/Nice/nightlife-nice-guide.jpg?imwidth=450");
+  background-repeat: no-repeat;
+  background-position: right -10px top -35px;
+  background-size: 250px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 8px;
+  padding-right: 170px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*  Navbar Styling */
+.navBar {
+  overflow: hidden;
+  background-color: #c4471a;
+}
+/* This is for the MOBILE STACKED NAVBAR */
+.navBar .icon{
+  display: none;
+}
+
+/* This is the actual navbar nd its links/text */
+div.navBar a{
+  display: inline;
+  padding-left: 3%;
+  padding-right: 3%;
+  float:left;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+  color: Azure;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: #ff3838;
+}
+/* This is the color of the NAVBAR */
+div.navBar {
+  background-color: #ff3838;
+}
+
+/* This is so it changes when you hover over the navBar */
+div.navBar a:hover{
+  background-color: #ff8f8f;
+  color: #631a00;
+}
+/* This is the color of the navBar when your not hovering over it */
+div.navBar a.active{
+  color: #631a00;
+  background-color: #fa845a;
+}
+/* This is for the navBar, keeps it in place */
+.top-container{
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 8000;
+}
+/* End NavBar, Start Home Page */
+/* Background color for the home page */
+html.index{
+  background: rgb(194,238,255);
+  background: linear-gradient(180deg, rgba(194,238,255,1) 0%, rgba(86,170,249,1) 100%);
+}
+/* This is for the big WELCOME title on the home page */
+p.indextitle{
+  color: #093b80;
+  font-size: 350%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  background-color: #75bfff;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* This is for the body text on the home page */
+p.intro{
+  color: #212f33;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  text-indent: 15px;
+  font-size: 150%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-color: #093b80;
+  border-style: dashed;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+* {box-sizing:border-box}
+/* All This code is for the slideshow */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.mySlides {
+  display: none;
+}
+/* This is the arrows that let you click back and forward on the slideshow */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #f2f2f2;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* This is the number in the corner of the slideshow */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* This is for the dots under the slideshow */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  margin-bottom: 3%;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* End DOTS for SLIDESHOW */
+/* This makes the pictures fade in and out */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* End fade for pics */
+/* End SLIDESHOW CODE */
+/* End Home Page, Start Our Story */
+/* OUR STORY BACKGROUND color */
+body.ourstory{
+  background: rgb(255,194,194);
+  background: linear-gradient(180deg, rgba(255,194,194,1) 0%, rgba(254,72,72,1) 100%);
+  }
+/* This is the big our stroy title */
+p.ourtitle{
+  color: #400301;
+  font-size: 350%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  background-color: #ff6e6e;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 10px;
+
+}
+/* This is the body text for our story */
+p.storyp{
+  color: #5c0300;
+  font-size: 150%;
+  font-family: "Quicksand" ,sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-weight: 500;
+}
+div.borderstory{
+  border-style: dashed;
+  border-color: #400301;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* This is the big logo picture under the title */
+div.crop{
+  background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=0&sz=w3740-h1928");
+  background-position: 1150px 785px;
+  width: 1100px;
+  height: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-width: medium;
+  border-style: solid;
+  border-color: #400301;
+  border-width: thick;
+  height: 515px;
+/* This is the 3 little pictures at the bottom */
+}
+img.ourstoryimages{
+  margin-left: auto;
+  margin-right: auto;
+  border: solid;
+    border-width: thick;
+    border-color: #400301;
+}
+/* This keeps those 3 pictures in line */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+
+}
+/*  This keeps those 3 pictures in line */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+}
+
+/* End our story, Start JOIN US */
+/* This is just space as a placeholder fo anything you want to add */
+div.space{
+  height: 400px;
+}
+/* Background color for the JOIN US page */
+body.joinbody{
+    background: rgb(241,223,255);
+    background: linear-gradient(180deg, rgba(241,223,255,1) 0%, rgba(207,100,255,1) 100%);
+}
+/* The big JOIN US title at the top of page */
+h1.jtitle{
+  color: #3f065c;
+  font-size: 350%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  background-color:#d582ff;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* The body text for the Join Us page */
+p.jp{
+  border-color: Purple;
+  border-style: dashed;
+  color: #13002e;
+  font-size: 150%;
+  font-family: "Quicksand" ,sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* End Join Us, Start our sponsors */
+/* Link at the bottom that takes you to the JOIN US page */
+a.sponlink{
+  text-align: center;
+  font-family: "Quicksand" ,sans-serif;
+  color: DarkSlateGray;
+  font-size: 150%;
+  text-decoration: underline;
+  font-weight: bold;
+}
+/* Big OUR SPONSORS title */
+h1.title{
+color: #1f3324;
+font-size: 350%;
+text-align: center;
+font-family: "Bitter", serif;
+background-color:#80ff91;
+margin: 0;
+font-weight: bold;
+padding-bottom: 10px;
+}
+/* Background color for OUR SPONSORS */
+body.sponsor{
+  background: rgb(224,255,232);
+  background: linear-gradient(180deg, rgba(224,255,232,1) 0%, rgba(112,255,105,1) 100%);
+}
+/* Body Text for OUR SPONSORS  */
+p.go{
+  border-color: SeaGreen;
+  border-style: dashed;
+  padding: 40px;
+  text-decoration: none;
+  font-family: "Quicksand",sans-serif;
+  text-align: center;
+  font-size: 150%;
+  margin-right: 20%;
+  margin-left: 20%;
+  color: #014215;
+  font-weight: 500;
+}
+/* The Sponsor Logo Pictures */
+img.sponsor{
+  border: solid;
+  border-color: SeaGreen;
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+/* End Sponsors, Start Contact Us */
+body.Register {
+  background: rgb(254,255,194);
+  background: linear-gradient(180deg, rgba(254,255,194,1) 0%, rgba(252,255,49,1) 100%);
+}
+/* Big CONTACT US title */
+h5.ContactTitle{
+  font-size: 350%;
+  color: #414531;
+  text-align: center;
+  font-family: "Bitter", serif;
+  background-color: #f2ea6d;
+  margin: 0;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+/* Sub-Title for CONTACT US */
+p.OfferTitle{
+  font-size: 150%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  color: #a66600;
+  font-weight: 500;
+}
+/* Body Text for CONTACT US */
+p.Offerings{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #a66600;
+  font-weight: 520;
+}
+/* Body Text for CONTACT US */
+p.Register{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #a66600;
+  font-weight: 520;
+}
+/* Body Text that gives infrmation about the FLYERS */
+p.link{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #a66600;
+  font-weight: 520;
+}
+/* Link to the FLYERS */
+a.link{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: underline;
+  color: Black;
+  font-weight: 520;
+}
+/* Body Text for CONTACT US */
+p.rules{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #a66600;
+  font-weight: 520;
+}
+/* Sub-Title for CONTACT US */
+p.ClothesTitle{
+  font-size: 150%;
+  text-align: center;
+  font-family: "Bitter", serif;
+  color: #a66600;
+  font-weight: 500;
+}
+/* Body Text for CONTACT US */
+p.clothes{
+  font-size: 140%;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  color: #a66600;
+  font-weight: 520;
+}
+hr{
+  border-top: 5px dashed #ed9f02;
+
+}
+/* End Contact Us Styling, START CONTACT BAR */
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: stick;
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #333;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #57d5f7;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+/* icons for bottom nav bar */
+.footer-distributed .footer-center i.fa-file{
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.footer-distributed .footer-center i.fa-file-text{
+	font-size: 20px;
+	line-height: 17px;
+}
+
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 20px;
+	line-height: 20px;
+}
+
+
+.footer-distributed .footer-center i.fa-phone{
+  font-size: 20px;
+  line-height: 20px;
+}
+.footer-distributed .footer-center i.fa-map-marker{
+  font-size: 20px;
+  line-height: 20px;
+}
+
+/* end icons */
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #57d5f7;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+/* footer right icons */
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	background-color:  #33383b;
+	border-radius: 10px;
+
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+.footer-distributed .fa-facebook{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer-distributed .fa-twitter{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer-distributed .fa-instagram{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer-distributed .fa-google-plus{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+}
+
+.footer-distributed .fa-youtube{
+  display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+}
+/* end icons for the right */
+/* END CONTACT BAR */
+
+/* Start Mobile Responsive */
+@@media screen and (max-width: 400px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+  }
+  div.crop{
+    background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=1&sz=w1334-h790");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+  }
+  img.ourstoryimages{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+      border-width: thick;
+      border-color: #400301;
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+
+  }
+  div.crop{
+    background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=1&sz=w1334-h790");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+  }
+  img.ourstoryimages{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+      border-width: thick;
+      border-color: #400301;
+    width: 100%;
+    height: auto;
+  }
+  p.storyp{
+    font-size: 130%;
+  }
+  p.intro{
+    font-size: 130%;
+  }
+  p.go{
+    font-size: 130%;
+  }
+  p.jp{
+    font-size: 130%;
+  }
+}
+@@media screen and (max-width: 800px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+
+  }
+  div.crop{
+    background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=1&sz=w1334-h790");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+  }
+  img.ourstoryimages{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+      border-width: thick;
+      border-color: #400301;
+    width: 100%;
+    height: auto;
+  }
+
+}
+@@media screen and (max-width: 1000px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+
+  }
+  div.crop{
+    background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=1&sz=w1334-h790");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+  }
+  img.ourstoryimages{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+      border-width: thick;
+      border-color: #400301;
+    width: 100%;
+    height: auto;
+  }
+
+}
+@@media screen and (max-width: 1200px) {
+  .navBar a:not(:first-child) {display: none;}
+  .navBar a.icon{
+    float: right;
+    display: block;
+  }
+  .navBar.responsive {position: relative;}
+  .navBar.responsive .icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navBar.responsive a{
+    float: none;
+    display: block;
+    text-align: left;
+    }
+
+
+
+  }
+  div.crop{
+    background-image: url("https://drive.google.com/thumbnail?id=16q_voWWhcJ5DPfQlnOhfk8zjTxT70AUs&authuser=1&sz=w1334-h790");
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+
+  }
+  img.ourstoryimages{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+      border-width: thick;
+      border-color: #400301;
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+ @media (max-width: 880px) {
+
+ 	.footer-distributed .footer-left,
+ 	.footer-distributed .footer-center,
+ 	.footer-distributed .footer-right{
+ 		display: block;
+ 		width: 100%;
+ 		margin-bottom: 40px;
+ 		text-align: center;
+ 	}
+
+/* End Mobile Responsive */

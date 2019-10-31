@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html class="index" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="final.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Home</title>
+  </head>
+  <body>
+    <!-- NAVBAR Start -->
+        <h1 class="navtitle">The Flips Project!</h1>
+    <div class="navBar" id="Topnav">
+
+              <a href="Final-Index.html">Home</a>
+              <a href="FinalOurStory.html">Our Story</a>
+              <a href="FinalRegister.html">Register or Contact Us</a>
+              <a href="FinalSponsor.html">Our Sponsors</a>
+              <a href="FinalJoinUs.html">Join Us</a>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i></a>
+
+      </div>
+ <p class="indextitle"> Welcome </p>
+<!-- Slideshow -->
+<div class="slideshow-container">
+      <!-- Each image gets its own div container -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 7</div>
+    <img src="https://s23527.pcdn.co/wp-content/uploads/2019/01/Aquamarine.jpg.optimal.jpg" style="width:100%" height="570px">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 7</div>
+    <img src="https://prolifecampaign.ie/main/wp-content/uploads/2012/03/placeholder2.jpg" style="width:100%">
+  </div>
+
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+</div>
+    <!-- This javascript makes the slideshow move -->
+<script>
+  var slideIndex = 1;
+    showSlides(slideIndex);
+// Next/previous controls
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+// Thumbnail image controls
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
+
+
+    <p class="intro">The Flips Project is a program that began with
+      a mission to make the joy of Gymnastics accessible to financially
+      challenged families in Central Oregon.  Boys and girls ages 6-10
+      can bounce aound during a class one hour a week for an 8 week session
+      at OOA Gymnastics.  The class is taught by high school volunteers
+      that have been involved in gymnastics themselves. Kids will get
+      to learn balance, agility, and body awareness as well as fun tricks
+      on Vault, Bars, Floor, and Tramp.  Come join us for some fun, movement
+      education, and beginning gymnastics!</p>
+      <br>
+
+  <script>
+    function myFunction() {
+      var x = document.getElementById("Topnav");
+      if (x.className === "navBar") {
+        x.className += " responsive";
+      } else {
+        x.className = "navBar";
+      }
+    }
+  </script>
+  <!-- Start Contact Bar -->
+  <!-- contact -->
+  <!-- The content for left side start -->
+
+      <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <img src="img/logo.png">
+          <h3>About<span>The Flips Project!</span></h3>
+
+          <p class="footer-links">
+            <a href="Final-Index.html">Home</a>
+            |
+            <a href="FinalOurStory.html">Story</a>
+            |
+            <a href="FinalSponsor.html">Sponsors</a>
+            |
+            <a href="FinalRegister.html">Contact</a>
+            |
+            <a href="FinalJoinUs.html">Join Us</a>
+          </p>
+
+          <!-- <p class="footer-company-name">© 2019 Flips Project!</p> -->
+        </div>
+        <!-- The content for left side End -->
+        <div class="footer-center">
+          <div>
+            <!-- map marker -->
+            <i class="fa fa-map-marker" href="1045 SE Paiute Way Bend, OR 97702" target=planetmap></i>
+              <p><span>Located at OOA Gymnastics at</span>
+              1045 SE Paiute Way Bend, OR 97702</p>
+          </div>
+          <!-- end map marker -->
+          <!-- start phone marker -->
+          <div>
+            <i class="fa fa-phone"></i>
+            <p><span>To Enroll Call Kenna Littlefield,</span>
+              541-977-1122</p>
+          </div>
+          <!-- end phone marker -->
+          <!-- start envelope marker -->
+          <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="mailto:Kdlittlefield324@gmail.com">Kdlittlefield324@gmail.com</a><br>
+          </div>
+          <!-- end envelope marker -->
+          <!-- start Digital file maker -->
+          <div>
+            <i class="fa fa-file"></i>
+            <p><a href="FP Sess 5 Digital Flyer.pdf" target="_blank">The Flips Project Digital Flyer</a></p>
+          </div>
+          <!-- end Digital file marker -->
+          <!-- start printout flyer-->
+          <div>
+            <i class="fa fa-file-text"></i>
+            <p><a href="FP Flyer SESS 5.pdf" target="_blank">The Flips Project Printout Flyer</a></p>
+          </div>
+          <!-- end printout flyer -->
+        </div>
+      <!-- start right social media buttons -->
+        <div class="footer-right">
+          <p class="footer-company-about">
+            <span>About the company</span>
+            We offer fun, and enjoyable gymnastics for Boys and Girls, ages 6-10. No experience necessary!</p>
+          <div class="footer-icons">
+            <a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://plus.google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+          </div>
+          <!-- end right social media buttons -->
+        </div>
+          </footer>
+
+
+  </body>
+</html>
